@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #fbf3df;
+  display: flex;
+  flex-direction: column; /* <<< new */
+  justify-content: space-between; /* <<< new */
+  align-items: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+img {
+  width: 100%; /* adjusted */
+  max-width: 600px; /* slightly smaller for better mobile look */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.loading {
+  font-size: 1.8em;
+  color: #5c3b1e;
+  animation: blink 1.5s infinite;
+  margin-top: 20px;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
