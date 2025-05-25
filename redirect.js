@@ -1,3 +1,3 @@
 setTimeout(() => {
-  window.location.href = "https://tame-clam-215.convex.app/";
+  window.location.href = "https://littlechefs.onrender.com";
 }, 1500);
